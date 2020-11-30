@@ -1,0 +1,51 @@
+2020-11-22 23:26:59,576 DEBUG decorators.py > main args: () kwargs: {} module: __main__
+2020-11-22 23:26:59,576 DEBUG decorators.py > config_load args: () kwargs: {} module: __main__
+2020-11-22 23:26:59,577 DEBUG decorators.py > parse_args args: ('7777', '') kwargs: {} module: __main__
+2020-11-22 23:29:16,352 DEBUG decorators.py > main args: () kwargs: {} module: __main__
+2020-11-22 23:29:16,352 DEBUG decorators.py > config_load args: () kwargs: {} module: __main__
+2020-11-22 23:29:16,353 DEBUG decorators.py > parse_args args: ('7777', '') kwargs: {} module: __main__
+2020-11-22 23:32:52,298 DEBUG decorators.py > main args: () kwargs: {} module: __main__
+2020-11-22 23:32:52,298 DEBUG decorators.py > config_load args: () kwargs: {} module: __main__
+2020-11-22 23:32:52,298 DEBUG decorators.py > parse_args args: ('7777', '') kwargs: {} module: __main__
+2020-11-22 23:32:52,344 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-22 23:43:10,091 INFO core.py Установлено соедение с ПК ('127.0.0.1', 36420)
+2020-11-22 23:43:10,592 DEBUG decorators.py > get_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36420)>,) kwargs: {} module: common.utils
+2020-11-22 23:43:10,593 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1606077790.11028, 'user': {'account_name': '123', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAywu98ku/3dAuAbyDr0qW\nWchVKL2Nan9gMNkS2HRzJWR9jMa20d13cfJ6He/3M7UfJDd+Rc3Hl5pVo2O76Wd5\nulu0Xypairi9DdTKkvbbJV+DjmZxInR/xxMVSuNGMtHLhs/+Me2PZGJre7kv7of3\nCE64Y/INMoKKa82dfPeNIXq0wBZfnWQWu92Nr12PSEJC+RUw5ZMaPJFnQy818sqK\n9r6q7jnU4vR2i86GDYpVTHCMCvAeWlm0+LuRxQlWjPu4mTfhypONPBXnjZvbi+rx\nWa7UrF7UpQapELuQZPB5ieU3IDgC0tv19Up0jqyBb9oKrlWzIAi2Ck6RTNI30o5J\nPwIDAQAB\n-----END PUBLIC KEY-----'}}
+2020-11-22 23:43:10,593 DEBUG core.py Start auth process for {'account_name': '123', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAywu98ku/3dAuAbyDr0qW\nWchVKL2Nan9gMNkS2HRzJWR9jMa20d13cfJ6He/3M7UfJDd+Rc3Hl5pVo2O76Wd5\nulu0Xypairi9DdTKkvbbJV+DjmZxInR/xxMVSuNGMtHLhs/+Me2PZGJre7kv7of3\nCE64Y/INMoKKa82dfPeNIXq0wBZfnWQWu92Nr12PSEJC+RUw5ZMaPJFnQy818sqK\n9r6q7jnU4vR2i86GDYpVTHCMCvAeWlm0+LuRxQlWjPu4mTfhypONPBXnjZvbi+rx\nWa7UrF7UpQapELuQZPB5ieU3IDgC0tv19Up0jqyBb9oKrlWzIAi2Ck6RTNI30o5J\nPwIDAQAB\n-----END PUBLIC KEY-----'}
+2020-11-22 23:43:10,597 DEBUG core.py Unknown username, sending {'response': 400, 'error': 'Пользователь не зарегистрирован.'}
+2020-11-22 23:43:10,597 DEBUG decorators.py > send_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36420)>, {'response': 400, 'error': 'Пользователь не зарегистрирован.'}) kwargs: {} module: common.utils
+2020-11-22 23:44:48,587 DEBUG decorators.py > main args: () kwargs: {} module: __main__
+2020-11-22 23:44:48,588 DEBUG decorators.py > config_load args: () kwargs: {} module: __main__
+2020-11-22 23:44:48,588 DEBUG decorators.py > parse_args args: ('7777', '') kwargs: {} module: __main__
+2020-11-22 23:44:48,624 INFO core.py Запущен сервер, порт для подключений: 7777 , адрес с которого принимаются подключения: . Если адрес не указан, принимаются соединения с любых адресов.
+2020-11-22 23:45:57,694 INFO core.py Установлено соедение с ПК ('127.0.0.1', 36488)
+2020-11-22 23:45:58,196 DEBUG decorators.py > get_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:58,197 DEBUG core.py Разбор сообщения от клиента : {'action': 'presence', 'time': 1606077957.7100503, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjH5h4GDhZEjSFMih7or\nuxKFkcWrUwz/fG0hZFiwYReNUcdVW2FAr3rzeWf/uYfRoMatGbDISxxx+kNNXrpw\niNocglfBQsScB/zEq27L12ulmvXhndvrrirEfr4smUp/tbB6tveCxnh6bSxVO0Lr\n/y9jF7j15Awfmccuu8Mth5oGYphaigzwiGNCK2S0nIBt2473d2oCSK11O76rrcQ5\nXXwyInU5gmM1Owfx82tnrM21ISoZmBaQ8sTrHv7Hk5VzmXTkCgBsliBZBNeOdmiF\nnEUgHVnhyned1WYHKjovQvBIkUPW0fflMFnyu9BR/AmIoa06tf0bxVapitOwpWHr\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2020-11-22 23:45:58,197 DEBUG core.py Start auth process for {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjH5h4GDhZEjSFMih7or\nuxKFkcWrUwz/fG0hZFiwYReNUcdVW2FAr3rzeWf/uYfRoMatGbDISxxx+kNNXrpw\niNocglfBQsScB/zEq27L12ulmvXhndvrrirEfr4smUp/tbB6tveCxnh6bSxVO0Lr\n/y9jF7j15Awfmccuu8Mth5oGYphaigzwiGNCK2S0nIBt2473d2oCSK11O76rrcQ5\nXXwyInU5gmM1Owfx82tnrM21ISoZmBaQ8sTrHv7Hk5VzmXTkCgBsliBZBNeOdmiF\nnEUgHVnhyned1WYHKjovQvBIkUPW0fflMFnyu9BR/AmIoa06tf0bxVapitOwpWHr\nhQIDAQAB\n-----END PUBLIC KEY-----'}
+2020-11-22 23:45:58,209 DEBUG core.py Correct username, starting passwd check.
+2020-11-22 23:45:58,213 DEBUG core.py Auth message = {'response': 511, 'bin': '4acb948d4be3b4ed1c86352409c73c4c131e8809449a492d74a49c4085eec75dcbde3f5c3eacd282ef92297b1d3dd1439d56d74a0326d126254b5c060fbd716d'}
+2020-11-22 23:45:58,213 DEBUG decorators.py > send_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>, {'response': 511, 'bin': '4acb948d4be3b4ed1c86352409c73c4c131e8809449a492d74a49c4085eec75dcbde3f5c3eacd282ef92297b1d3dd1439d56d74a0326d126254b5c060fbd716d'}) kwargs: {} module: common.utils
+2020-11-22 23:45:58,214 DEBUG decorators.py > get_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:58,215 DEBUG decorators.py > send_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>, {'response': 200}) kwargs: {} module: common.utils
+2020-11-22 23:45:58,778 DEBUG decorators.py > get_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:58,778 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_users', 'time': 1606077958.2161524, 'account_name': 'test1'}
+2020-11-22 23:45:58,780 DEBUG decorators.py > send_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>, {'response': 202, 'data_list': ['test1', 'test2']}) kwargs: {} module: common.utils
+2020-11-22 23:45:59,281 DEBUG decorators.py > get_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:59,281 DEBUG core.py Разбор сообщения от клиента : {'action': 'get_contacts', 'time': 1606077958.7993524, 'user': 'test1'}
+2020-11-22 23:45:59,285 DEBUG decorators.py > send_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777), raddr=('127.0.0.1', 36488)>, {'response': 202, 'data_list': ['test2']}) kwargs: {} module: common.utils
+2020-11-22 23:45:59,786 DEBUG decorators.py > get_message args: (<socket.socket fd=27, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:59,786 DEBUG core.py Getting data from client exception.
+Traceback (most recent call last):
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/server/core.py", line 71, in run
+    get_message(client_with_message), client_with_message)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/decorators.py", line 19, in log_saver
+    ret = func(*args, **kwargs)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/utils.py", line 13, in get_message
+    response = json.loads(json_response)
+  File "/usr/lib/python3.8/json/__init__.py", line 357, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.8/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.8/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)

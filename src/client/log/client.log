@@ -1,0 +1,68 @@
+2020-11-22 23:43:01,840 DEBUG decorators.py > arg_parser args: () kwargs: {} module: __main__
+2020-11-22 23:43:08,812 DEBUG client.py Using USERNAME = 123, PASSWD = 123.
+2020-11-22 23:43:08,812 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: 123
+2020-11-22 23:43:10,085 INFO transport.py Подключаемся 1
+2020-11-22 23:43:10,110 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1606077790.11028, 'user': {'account_name': '123', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAywu98ku/3dAuAbyDr0qW\nWchVKL2Nan9gMNkS2HRzJWR9jMa20d13cfJ6He/3M7UfJDd+Rc3Hl5pVo2O76Wd5\nulu0Xypairi9DdTKkvbbJV+DjmZxInR/xxMVSuNGMtHLhs/+Me2PZGJre7kv7of3\nCE64Y/INMoKKa82dfPeNIXq0wBZfnWQWu92Nr12PSEJC+RUw5ZMaPJFnQy818sqK\n9r6q7jnU4vR2i86GDYpVTHCMCvAeWlm0+LuRxQlWjPu4mTfhypONPBXnjZvbi+rx\nWa7UrF7UpQapELuQZPB5ieU3IDgC0tv19Up0jqyBb9oKrlWzIAi2Ck6RTNI30o5J\nPwIDAQAB\n-----END PUBLIC KEY-----'}}
+2020-11-22 23:43:10,124 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36420), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1606077790.11028, 'user': {'account_name': '123', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAywu98ku/3dAuAbyDr0qW\nWchVKL2Nan9gMNkS2HRzJWR9jMa20d13cfJ6He/3M7UfJDd+Rc3Hl5pVo2O76Wd5\nulu0Xypairi9DdTKkvbbJV+DjmZxInR/xxMVSuNGMtHLhs/+Me2PZGJre7kv7of3\nCE64Y/INMoKKa82dfPeNIXq0wBZfnWQWu92Nr12PSEJC+RUw5ZMaPJFnQy818sqK\n9r6q7jnU4vR2i86GDYpVTHCMCvAeWlm0+LuRxQlWjPu4mTfhypONPBXnjZvbi+rx\nWa7UrF7UpQapELuQZPB5ieU3IDgC0tv19Up0jqyBb9oKrlWzIAi2Ck6RTNI30o5J\nPwIDAQAB\n-----END PUBLIC KEY-----'}}) kwargs: {} module: common.utils
+2020-11-22 23:43:10,125 DEBUG decorators.py > get_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36420), raddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:43:10,598 DEBUG transport.py Server response = {'response': 400, 'error': 'Пользователь не зарегистрирован.'}.
+2020-11-22 23:45:56,912 DEBUG decorators.py > arg_parser args: () kwargs: {} module: __main__
+2020-11-22 23:45:57,126 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2020-11-22 23:45:57,691 INFO transport.py Подключаемся 1
+2020-11-22 23:45:57,710 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1606077957.7100503, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjH5h4GDhZEjSFMih7or\nuxKFkcWrUwz/fG0hZFiwYReNUcdVW2FAr3rzeWf/uYfRoMatGbDISxxx+kNNXrpw\niNocglfBQsScB/zEq27L12ulmvXhndvrrirEfr4smUp/tbB6tveCxnh6bSxVO0Lr\n/y9jF7j15Awfmccuu8Mth5oGYphaigzwiGNCK2S0nIBt2473d2oCSK11O76rrcQ5\nXXwyInU5gmM1Owfx82tnrM21ISoZmBaQ8sTrHv7Hk5VzmXTkCgBsliBZBNeOdmiF\nnEUgHVnhyned1WYHKjovQvBIkUPW0fflMFnyu9BR/AmIoa06tf0bxVapitOwpWHr\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2020-11-22 23:45:57,710 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36488), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1606077957.7100503, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjH5h4GDhZEjSFMih7or\nuxKFkcWrUwz/fG0hZFiwYReNUcdVW2FAr3rzeWf/uYfRoMatGbDISxxx+kNNXrpw\niNocglfBQsScB/zEq27L12ulmvXhndvrrirEfr4smUp/tbB6tveCxnh6bSxVO0Lr\n/y9jF7j15Awfmccuu8Mth5oGYphaigzwiGNCK2S0nIBt2473d2oCSK11O76rrcQ5\nXXwyInU5gmM1Owfx82tnrM21ISoZmBaQ8sTrHv7Hk5VzmXTkCgBsliBZBNeOdmiF\nnEUgHVnhyned1WYHKjovQvBIkUPW0fflMFnyu9BR/AmIoa06tf0bxVapitOwpWHr\nhQIDAQAB\n-----END PUBLIC KEY-----'}}) kwargs: {} module: common.utils
+2020-11-22 23:45:57,710 DEBUG decorators.py > get_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36488), raddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:58,214 DEBUG transport.py Server response = {'response': 511, 'bin': '4acb948d4be3b4ed1c86352409c73c4c131e8809449a492d74a49c4085eec75dcbde3f5c3eacd282ef92297b1d3dd1439d56d74a0326d126254b5c060fbd716d'}.
+2020-11-22 23:45:58,214 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36488), raddr=('127.0.0.1', 7777)>, {'response': 511, 'bin': 'Q0Q28MZEZj4ftFyfzZqoUA==\n'}) kwargs: {} module: common.utils
+2020-11-22 23:45:58,215 DEBUG decorators.py > get_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36488), raddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:58,215 DEBUG transport.py Сообщение сервера: {'response': 200}
+2020-11-22 23:45:58,216 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36488), raddr=('127.0.0.1', 7777)>, {'action': 'get_users', 'time': 1606077958.2161524, 'account_name': 'test1'}) kwargs: {} module: common.utils
+2020-11-22 23:45:58,216 DEBUG decorators.py > get_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36488), raddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:45:58,799 DEBUG transport.py Запрос контактов пользователся Thread-1
+2020-11-22 23:45:58,799 DEBUG transport.py Запрос: {'action': 'get_contacts', 'time': 1606077958.7993524, 'user': 'test1'}
+2020-11-22 23:45:58,799 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36488), raddr=('127.0.0.1', 7777)>, {'action': 'get_contacts', 'time': 1606077958.7993524, 'user': 'test1'}) kwargs: {} module: common.utils
+2020-11-22 23:47:58,845 DEBUG decorators.py > arg_parser args: () kwargs: {} module: __main__
+2020-11-22 23:47:59,055 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test1
+2020-11-22 23:47:59,188 INFO transport.py Подключаемся 1
+2020-11-22 23:47:59,210 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1606078079.209971, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjH5h4GDhZEjSFMih7or\nuxKFkcWrUwz/fG0hZFiwYReNUcdVW2FAr3rzeWf/uYfRoMatGbDISxxx+kNNXrpw\niNocglfBQsScB/zEq27L12ulmvXhndvrrirEfr4smUp/tbB6tveCxnh6bSxVO0Lr\n/y9jF7j15Awfmccuu8Mth5oGYphaigzwiGNCK2S0nIBt2473d2oCSK11O76rrcQ5\nXXwyInU5gmM1Owfx82tnrM21ISoZmBaQ8sTrHv7Hk5VzmXTkCgBsliBZBNeOdmiF\nnEUgHVnhyned1WYHKjovQvBIkUPW0fflMFnyu9BR/AmIoa06tf0bxVapitOwpWHr\nhQIDAQAB\n-----END PUBLIC KEY-----'}}
+2020-11-22 23:47:59,210 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36528), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1606078079.209971, 'user': {'account_name': 'test1', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqjH5h4GDhZEjSFMih7or\nuxKFkcWrUwz/fG0hZFiwYReNUcdVW2FAr3rzeWf/uYfRoMatGbDISxxx+kNNXrpw\niNocglfBQsScB/zEq27L12ulmvXhndvrrirEfr4smUp/tbB6tveCxnh6bSxVO0Lr\n/y9jF7j15Awfmccuu8Mth5oGYphaigzwiGNCK2S0nIBt2473d2oCSK11O76rrcQ5\nXXwyInU5gmM1Owfx82tnrM21ISoZmBaQ8sTrHv7Hk5VzmXTkCgBsliBZBNeOdmiF\nnEUgHVnhyned1WYHKjovQvBIkUPW0fflMFnyu9BR/AmIoa06tf0bxVapitOwpWHr\nhQIDAQAB\n-----END PUBLIC KEY-----'}}) kwargs: {} module: common.utils
+2020-11-22 23:47:59,210 DEBUG decorators.py > get_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36528), raddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:48:04,215 DEBUG transport.py Connection error.
+Traceback (most recent call last):
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/client/transport.py", line 80, in connection_init
+    ans = get_message(self.transport)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/decorators.py", line 19, in log_saver
+    ret = func(*args, **kwargs)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/utils.py", line 11, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+socket.timeout: timed out
+2020-11-22 23:49:06,145 DEBUG decorators.py > arg_parser args: () kwargs: {} module: __main__
+2020-11-22 23:49:06,370 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test2
+2020-11-22 23:49:07,644 INFO transport.py Подключаемся 1
+2020-11-22 23:49:07,662 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1606078147.6624303, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAru2G0xR36rrhjp2osv+P\n7IEh+mIHL0cQQhyLOxGvt3FdIQdDv1jYDB1D3xCeR6pa9JWxyleTWo2DeRx5/dhI\nnyiE5CjSHQ3MNNS1BB/1M/vETflJrSlXfwIGvkCBB3x7y6FpvlpU5/Y0n6NsKWxB\n6eWRIGxVTkHlnaMESyP0l2HcvHhw11DWvIfaPGimzCTgfRpSchbPpsc+jtPWX9EA\nv5Xe4hnlo2NNm32y+n533w8gYyaGGf5XjazkRDyZ9SzQ3IZtvxIE+wq/QVG3J0Td\nRUVwyazzHzlqwTCjy+7CKHKFfAwOcFaJdkUb1eAAMon/6we44JPE+3sgZr9leZ7x\nawIDAQAB\n-----END PUBLIC KEY-----'}}
+2020-11-22 23:49:07,662 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36560), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1606078147.6624303, 'user': {'account_name': 'test2', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAru2G0xR36rrhjp2osv+P\n7IEh+mIHL0cQQhyLOxGvt3FdIQdDv1jYDB1D3xCeR6pa9JWxyleTWo2DeRx5/dhI\nnyiE5CjSHQ3MNNS1BB/1M/vETflJrSlXfwIGvkCBB3x7y6FpvlpU5/Y0n6NsKWxB\n6eWRIGxVTkHlnaMESyP0l2HcvHhw11DWvIfaPGimzCTgfRpSchbPpsc+jtPWX9EA\nv5Xe4hnlo2NNm32y+n533w8gYyaGGf5XjazkRDyZ9SzQ3IZtvxIE+wq/QVG3J0Td\nRUVwyazzHzlqwTCjy+7CKHKFfAwOcFaJdkUb1eAAMon/6we44JPE+3sgZr9leZ7x\nawIDAQAB\n-----END PUBLIC KEY-----'}}) kwargs: {} module: common.utils
+2020-11-22 23:49:07,663 DEBUG decorators.py > get_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36560), raddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:49:12,668 DEBUG transport.py Connection error.
+Traceback (most recent call last):
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/client/transport.py", line 80, in connection_init
+    ans = get_message(self.transport)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/decorators.py", line 19, in log_saver
+    ret = func(*args, **kwargs)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/utils.py", line 11, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+socket.timeout: timed out
+2020-11-22 23:51:54,472 DEBUG decorators.py > arg_parser args: () kwargs: {} module: __main__
+2020-11-22 23:51:54,686 INFO client.py Запущен клиент с парамертами: адрес сервера: 127.0.0.1 , порт: 7777, имя пользователя: test3
+2020-11-22 23:51:55,379 INFO transport.py Подключаемся 1
+2020-11-22 23:51:55,401 DEBUG transport.py Presense message = {'action': 'presence', 'time': 1606078315.4016883, 'user': {'account_name': 'test3', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwF7z04GnNohCRKuMyuBQ\n9v8//QC7Bcaa4FIGPwVTjdjMrsu1gIGrM1aw4OJySZp5JhHdpJTtcTi19nWgHQct\nT/bjNv9/VSIigKp3I3VjzDHTaS1yVR1ktpqMmymdXSHNbH+WUa41aMlT6uRR/+3f\nxQHhbeD7pp6LAgmkMuUfJA0FFRrS1BfLGTvTzp62Iwj0CMiYWf2rxtITECUXwtxy\ngm3bgkwKCWrYLWeLMowaA7DnFCLkCtGBrZQZY/qgGlbi81ZQwFKJw43hSMU6ajgZ\nFfoXCAGNKWb2ArX4EXU1vNxlC/cIrfqIpLfympYnjKTfAURIP82MM0XyZHaMiBws\newIDAQAB\n-----END PUBLIC KEY-----'}}
+2020-11-22 23:51:55,402 DEBUG decorators.py > send_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36722), raddr=('127.0.0.1', 7777)>, {'action': 'presence', 'time': 1606078315.4016883, 'user': {'account_name': 'test3', 'pubkey': '-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwF7z04GnNohCRKuMyuBQ\n9v8//QC7Bcaa4FIGPwVTjdjMrsu1gIGrM1aw4OJySZp5JhHdpJTtcTi19nWgHQct\nT/bjNv9/VSIigKp3I3VjzDHTaS1yVR1ktpqMmymdXSHNbH+WUa41aMlT6uRR/+3f\nxQHhbeD7pp6LAgmkMuUfJA0FFRrS1BfLGTvTzp62Iwj0CMiYWf2rxtITECUXwtxy\ngm3bgkwKCWrYLWeLMowaA7DnFCLkCtGBrZQZY/qgGlbi81ZQwFKJw43hSMU6ajgZ\nFfoXCAGNKWb2ArX4EXU1vNxlC/cIrfqIpLfympYnjKTfAURIP82MM0XyZHaMiBws\newIDAQAB\n-----END PUBLIC KEY-----'}}) kwargs: {} module: common.utils
+2020-11-22 23:51:55,402 DEBUG decorators.py > get_message args: (<socket.socket fd=24, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 36722), raddr=('127.0.0.1', 7777)>,) kwargs: {} module: common.utils
+2020-11-22 23:52:00,407 DEBUG transport.py Connection error.
+Traceback (most recent call last):
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/client/transport.py", line 80, in connection_init
+    ans = get_message(self.transport)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/decorators.py", line 19, in log_saver
+    ret = func(*args, **kwargs)
+  File "/home/minkika/Desktop/Урок 6. Пример практического задания/common/utils.py", line 11, in get_message
+    encoded_response = client.recv(MAX_PACKAGE_LENGTH)
+socket.timeout: timed out
